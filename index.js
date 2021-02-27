@@ -110,7 +110,6 @@ const menu =()=> {
                         finalHTML += generateHTML.cardHTML(element);
                     });
                     finalHTML += generateHTML.closeHTML();
-                    console.log(finalHTML);
                     writeToFile("./dist/index.html", finalHTML);
                     
                 }
