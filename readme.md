@@ -24,6 +24,7 @@
 * Install NPM packages--> npm install
 
 ## Usage
+Video: https://drive.google.com/file/d/1f_3WvtjiqA3dlrwu6AjY-ZPoE1gF47RQ/view
 ![alt text](images/index.png)
 
 Run node index.js from the command line.
