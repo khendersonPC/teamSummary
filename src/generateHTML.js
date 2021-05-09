@@ -1,4 +1,4 @@
-
+//background-color: #7283A6   
 function openHTML() {
     return `
     <!DOCTYPE html>
@@ -8,10 +8,11 @@ function openHTML() {
 	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://use.typekit.net/iuk5sne.css">
         </head>
-    <body style="background-color: #7283A6;font-family: proxima-nova, sans-serif;">
-        <div class="container">
+    <body style="background-image:url('../images/snow_web.jpg');font-family: proxima-nova, sans-serif;">
 
-	        <div class="jumbotron mt-3">
+    <div class="container" >
+
+	        <div class="jumbotron mt-3" style="background-image:url('./images/snow_web.jpg'); background-size: cover">
 		        <h1 class="text-center">Our Team</h1>
 	        </div>
         <div class="container">
@@ -25,7 +26,7 @@ function cardHTML(employee) {
     let pt1 = ` 
     <div class= "col-sm-4"> 
     <div class="card mb-3">
-    <h5 class="card-header" style="background-color:#BFA004;font-family: proxima-nova, sans-serif;
+    <h5 class="card-header" style="background-color:#7CA6A2;font-family: proxima-nova, sans-serif;
     font-weight: 700;
     font-style: normal;">${employee.getRole()}</h5>
     <div class="card-body">
